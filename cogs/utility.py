@@ -311,7 +311,7 @@ class Utility(commands.Cog):
         embed.set_author(
             name="Modmail - About",
             icon_url=self.bot.user.avatar_url,
-            url="https://discord.gg/F34cRU8",
+            url="https://discord.gg/mUxpX96zbb",
         )
         embed.set_thumbnail(url=self.bot.user.avatar_url)
 
@@ -323,7 +323,7 @@ class Utility(commands.Cog):
         embed.add_field(name="Uptime", value=self.bot.uptime)
         embed.add_field(name="Latency", value=f"{self.bot.latency * 1000:.2f} ms")
         embed.add_field(name="Version", value=f"`{self.bot.version}`")
-        embed.add_field(name="Authors", value="`kyb3r`, `Taki`, `fourjr`")
+        embed.add_field(name="Authors", value="joeyxpk#1787")
         embed.add_field(name="Hosting Method", value=self.bot.hosting_method.name)
 
         changelog = await Changelog.from_url(self.bot)
@@ -343,16 +343,14 @@ class Utility(commands.Cog):
 
         embed.add_field(
             name="Want Modmail in Your Server?",
-            value="Follow the installation guide on [GitHub](https://github.com/kyb3r/modmail/) "
-            "and join our [Discord server](https://discord.gg/F34cRU8)!",
+            value="Contact joeyxpk#1787 to see about getting a bot made for you",
             inline=False,
         )
 
         embed.add_field(
             name="Support the Developers",
             value="This bot is completely free for everyone. We rely on kind individuals "
-            "like you to support us on [`Patreon`](https://patreon.com/kyber) (perks included) "
-            "to keep this bot free forever!",
+            "Please consider sending a donation by contacting joeyxpk#1787",
             inline=False,
         )
 
